@@ -10,8 +10,14 @@ new_file_name = old_file_name[:position]+'备份'+ old_file_name[position:]
 #3.创建新的文件
 b = open(new_file_name,"w")
 #4.将源文件内容复制到新文件中
-inf = f.read()
-b.write(inf)
+#inf = f.read()
+#b.write(inf)
+
+while True:
+    inf = f.read(1024)
+    if len(inf)==0:
+        break
+    b.write(inf)
 #5.关闭两个文件
 f.close()
 b.close()

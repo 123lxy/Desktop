@@ -1,3 +1,4 @@
+#coding = utf-8
 #用来存储名片
 card_infors = []   #全局变量
 

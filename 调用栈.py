@@ -2,11 +2,11 @@
 def greet(name):
     print('hello'+name+'!')
     greet2(name)
-    print('haha')
+    print('haha'+name)
     bye()
 def greet2(name):
-    print(name+'is cool')
-def bye():
+    print(name+'is cool') 
+def bye():   
     print('I love you')
 
 greet('liu')

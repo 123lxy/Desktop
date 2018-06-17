@@ -1,2 +1,0 @@
-print(haa)
-print(ha)

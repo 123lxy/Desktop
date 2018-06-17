@@ -5,3 +5,5 @@ def num(arr):
         total += x 
     return total
 print num([2,4,6])
+
+print hello
